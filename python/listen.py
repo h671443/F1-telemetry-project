@@ -1,5 +1,4 @@
 import socket
-import struct
 
 #Define UDP packet and port 
 
@@ -12,8 +11,3 @@ def create_socket():
     sock.bind((UDP_IP, UDP_PORT)); 
     print(f"Listening on {UDP_IP}:{UDP_PORT}"); 
     return sock
-
-#while True:
-#data, addr = sock.recvfrom(2048)  # F1 packets vary in size
- # print(f"Received {data} bytes from {addr}")
-
