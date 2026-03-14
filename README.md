@@ -1,7 +1,8 @@
 # F1-telemetry-project
 Project Aimed to gather F1 telemetry data
 
------struct PacketHeader
+
+struct PacketHeader
 {
 uint16 m_packetFormat; // 2025
 uint8 m_gameYear; // Game year - last two digits e.g. 25
@@ -18,7 +19,6 @@ uint8 m_playerCarIndex; // Index of player's car in the array
 uint8 m_secondaryPlayerCarIndex; // Index of secondary player's car in the array (splitscreen)
 // 255 if no second player
 };
--------------
 
 
 
